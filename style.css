@@ -1,0 +1,58 @@
+*{
+    margin: none;
+    padding: none;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: montserrat;
+}
+
+nav{
+    background-color: gold;
+    height: 80px;
+    width: 100%;
+}
+
+label.logo{
+    color: black;
+    font-family: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+nav ul li a{
+    color: white;
+    font-size: 18px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: capitalize;
+}
+
+a.active,a:hover{
+    background-color: #1b9bff;
+    transition: .5s;
+}
+
+.checkbtn{
+    font-size: 30px;
+    columns: white;
+    float: right;
+    line-height: 80px;
+    margin-left: 40px;
+    cursor: pointer;
+}

@@ -1,0 +1,41 @@
+body{
+    background: linear-gradient(purple, blue);
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.container{
+    background-color: white;
+    width: 500px;
+    height: 300px;
+}
+
+button{
+    background-color: red;
+    padding: 10px;
+    border: 0px;
+    border-radius: 5px;
+}
+.btn1{
+    background: linear-gradient(purple, blue);
+    border-radius: 6px;
+    
+}
+
+button a{
+    text-decoration: none;
+    color: white;
+}
+
+.container h1{
+    color: purple;
+    font-size: 50px;
+}
+
+.container h2{
+    color: black;
+    font-size: 25px;
+
+}

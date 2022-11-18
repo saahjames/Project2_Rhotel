@@ -1,0 +1,40 @@
+body{
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav{
+    background-color: green;
+    width: 80px;
+    height: 100%;
+}
+
+label.logo{
+    color: white;
+    font-size: 35px;
+    padding: 0 100px;
+    line-height: 80px;
+    font-weight: bold;
+}
+
+nav.ul{
+    float: left;
+    margin-right: 20px;
+}
+
+nav.ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+nav.ul li a{
+    color: white;
+    font-size: 35;
+    padding: 7px 13px;
+    text-transform: capitalize;
+    border-radius: 4px;
+
+
+}
+
